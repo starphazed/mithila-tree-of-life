@@ -44,6 +44,8 @@ Reload the browser after editing. No rebuild is required. The server sends `Cach
 
 Upload the contents of `dist/` to a static host. Relative asset paths allow the app to live beneath a repository subpath. No server-side application, environment secret or API key is required.
 
+The [portfolio studio](https://portfolio-site-c6u.pages.dev/projects/mithila/studio/) hosts a copy of this release beneath `/projects/mithila/studio/`, alongside its case study. The portfolio copy retains the MIT license and third-party notices and omits developer diagnostics. Update that copy separately when publishing a new application version.
+
 For GitHub Pages, use a static publishing workflow whose uploaded artifact is `dist/`; this repository does not include an automatic deployment workflow. Selecting the repository root as a Pages source would not serve the app's nested entry point. `dist/diagnostics/` is a developer fixture and can be omitted from a public site while remaining in the source repository.
 
 ## Storage and exports

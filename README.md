@@ -2,6 +2,8 @@
 
 A procedural drawing application inspired by Madhubani painting. Enter a seed to generate a tree with its own branching structure, palette, motifs and border. The drawing develops over 10–15 seconds, then moves gently in the wind.
 
+[Open the drawing studio](https://portfolio-site-c6u.pages.dev/projects/mithila/studio/) · [Project page](https://portfolio-site-c6u.pages.dev/projects/mithila/)
+
 ![Mithila studio showing a completed tree](docs/images/studio.png)
 
 The artwork is constructed from vector paths in the browser.

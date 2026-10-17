@@ -3,6 +3,8 @@
   "version": "4.1.1",
   "private": true,
   "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/starphazed/mithila-tree-of-life.git"},
+  "homepage": "https://portfolio-site-c6u.pages.dev/projects/mithila/studio/",
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
