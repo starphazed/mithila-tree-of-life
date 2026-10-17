@@ -1,0 +1,37 @@
+{
+  "engine": "../js",
+  "seed": "MITHILA-005",
+  "interval": 40,
+  "mountMs": 14.2,
+  "growth": {
+    "samples": 206,
+    "averageMs": 7.04,
+    "p95Ms": 20.6,
+    "maxMs": 29.9
+  },
+  "wind": {
+    "samples": 127,
+    "averageMs": 5.43,
+    "p95Ms": 6.4,
+    "maxMs": 45.2
+  },
+  "growthFrames": {
+    "samples": 1016,
+    "averageMs": 10.26,
+    "p95Ms": 36.3,
+    "maxMs": 103
+  },
+  "windFrames": {
+    "samples": 331,
+    "averageMs": 18.14,
+    "p95Ms": 66.6,
+    "maxMs": 230.3
+  },
+  "longTasks": 2,
+  "canvasActive": true,
+  "backgroundReady": true,
+  "missingSprites": [],
+  "rasterSprites": 0,
+  "domElements": 7548,
+  "paths": 4004
+}

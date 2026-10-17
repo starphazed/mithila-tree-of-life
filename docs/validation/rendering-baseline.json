@@ -1,0 +1,33 @@
+{
+  "engine": "baseline",
+  "seed": "MITHILA-005",
+  "interval": 100,
+  "mountMs": 9.9,
+  "growth": {
+    "samples": 78,
+    "averageMs": 27.62,
+    "p95Ms": 96.8,
+    "maxMs": 114.5
+  },
+  "wind": {
+    "samples": 19,
+    "averageMs": 9.16,
+    "p95Ms": 11,
+    "maxMs": 11
+  },
+  "growthFrames": {
+    "samples": 707,
+    "averageMs": 15.12,
+    "p95Ms": 54.5,
+    "maxMs": 327.3
+  },
+  "windFrames": {
+    "samples": 19,
+    "averageMs": 328.78,
+    "p95Ms": 375.6,
+    "maxMs": 375.6
+  },
+  "longTasks": 24,
+  "domElements": 41161,
+  "paths": 33645
+}

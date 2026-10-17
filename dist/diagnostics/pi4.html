@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mithila device benchmark</title>
+<style>body{margin:0;background:#eeeee6;color:#34392d;font:13px system-ui}main{display:flex;gap:20px;padding:16px;align-items:flex-start}#frame{position:relative;flex:none}#art{display:block;width:100%;height:100%}section{min-width:250px;max-width:410px}h1{font:24px Georgia}pre{font:11px monospace;white-space:pre-wrap}button{padding:9px;margin:4px}textarea{width:100%;height:80px}a{color:inherit}@media(max-width:800px){main{flex-direction:column}#frame{max-width:90vw;max-height:90vw}}</style>
+<main><div id="frame"><svg id="art" xmlns="http://www.w3.org/2000/svg"></svg></div><section><h1>Device benchmark</h1><p id="phase">Preparing composition…</p><p id="setup"></p><pre id="metrics"></pre><button id="vector-check" disabled>Show vector export</button><button id="canvas-check" disabled>Show cached painting</button><p><label>Wind time <input id="motion-time" type="number" min="0" value="7" disabled></label></p><textarea id="export-source" hidden></textarea><p><a href="../?performance=pi4">Open studio with Pi 4 rendering</a></p></section></main>
+<script type="module">
+import {renderingPolicy} from '../js/performance.js';
+const q=new URLSearchParams(location.search),engine=q.get('engine')==='before'?'./pre-pi4/':'../js/',seed=q.get('seed')||'MITHILA-005',side=Math.max(300,Math.min(1000,+q.get('size')||880));
+const policy=renderingPolicy({mode:q.get('performance')||'pi4',dpr:devicePixelRatio}),svg=document.querySelector('#art'),frame=document.querySelector('#frame');
+frame.style.width=frame.style.height=side+'px';document.querySelector('#setup').textContent=seed+' · '+side+'px · '+engine+' · '+policy.name;
+const {Renderer}=await import(engine+'renderer.js'),{compose}=await import(engine+'composition.js');
+const begin=performance.now(),model=compose(seed),composeMs=performance.now()-begin,renderer=new Renderer(svg,policy),longTasks=[];
+let workerMs=null,workerModelMatches=null;
+if(engine==='../js/'){const {CompositionTask}=await import('../js/composition-task.js'),task=new CompositionTask(),t=performance.now(),workerModel=await task.run(seed);workerMs=+(performance.now()-t).toFixed(2);workerModelMatches=JSON.stringify(workerModel)===JSON.stringify(model);}
+try{new PerformanceObserver(list=>longTasks.push(...list.getEntries().map(e=>e.duration))).observe({type:'longtask',buffered:true});}catch{}
+let started=performance.now();renderer.mount(model,model.settings);const mountMs=performance.now()-started;
+const costs={growth:[],wind:[],steady:[]},gaps={growth:[],wind:[],steady:[]};let phase='growth',previous=performance.now(),lastPaint=0;
+started=previous;
+let poseTime=7;
+function inspection(){
+  const scene=renderer.scene,exportButton=document.querySelector('#vector-check'),canvasButton=document.querySelector('#canvas-check'),timeInput=document.querySelector('#motion-time');exportButton.disabled=canvasButton.disabled=timeInput.disabled=false;
+  timeInput.value=String(poseTime);
+  const cached=()=>{poseTime=Math.max(0,+timeInput.value||0);frame.querySelector('#vector-proof')?.remove();svg.style.display='';renderer.lastWindGeometry=-1;renderer.setWind(poseTime);exportButton.disabled=false;document.querySelector('#phase').textContent='Complete · wind time '+poseTime+'s';};
+  exportButton.onclick=()=>{const source=renderer.exportSVG();document.querySelector('#export-source').value=source;scene?.show(false);const vector=new DOMParser().parseFromString(source,'image/svg+xml').documentElement;vector.id='vector-proof';vector.style.width=vector.style.height='100%';svg.style.display='none';frame.append(vector);exportButton.disabled=true;};
+  canvasButton.onclick=cached;timeInput.onchange=cached;
+}
+if(q.has('still')){
+  renderer.update(model.maturity);poseTime=Math.max(0,+q.get('pose')||7);
+  const ready=()=>{renderer.setWind(poseTime);if([...renderer.groups.values()].some(g=>g.node.kind!=='branch'&&!g.sprite&&!g.spriteLayers)){requestAnimationFrame(ready);return;}
+    const scene=renderer.scene;document.querySelector('#metrics').textContent=JSON.stringify({seed,policy:policy.name,dpr:devicePixelRatio,canvas:[scene.canvas.width,scene.canvas.height],surfaceRatio:scene.dpr},null,2);document.querySelector('#phase').textContent='Complete';document.body.dataset.status='complete';inspection();};requestAnimationFrame(ready);
+}else{
+const summarize=a=>{if(!a.length)return {samples:0};const sorted=[...a].sort((a,b)=>a-b);return {samples:a.length,meanMs:+(a.reduce((a,b)=>a+b,0)/a.length).toFixed(2),p95Ms:+sorted[Math.min(a.length-1,Math.floor(a.length*.95))].toFixed(2),maxMs:+sorted.at(-1).toFixed(2)};};
+function tick(now){
+  if(document.hidden){previous=now;requestAnimationFrame(tick);return;}
+  const elapsed=(now-started)/1000;gaps[phase].push(now-previous);previous=now;
+  if(phase==='growth'&&now-lastPaint>=policy.growthInterval){const before=performance.now();renderer.update(Math.min(model.maturity,elapsed*model.settings.speed));costs.growth.push(performance.now()-before);lastPaint=now;}
+  if(phase==='growth'&&q.has('snapshot')&&elapsed>=model.settings.growthSeconds*.55){
+    const proxies=svg.querySelectorAll('[data-growth-proxy]').length,source=renderer.exportSVG(),tree=new DOMParser().parseFromString(source,'image/svg+xml');
+    document.querySelector('#export-source').value=source;document.querySelector('#metrics').textContent=JSON.stringify({mode:'growth export',seed,proxiesBefore:proxies,images:tree.querySelectorAll('image').length,paths:tree.querySelectorAll('path').length,viewBox:tree.documentElement.getAttribute('viewBox'),invalid:/NaN|Infinity|undefined/.test(source),blobReferences:source.includes('blob:'),parserErrors:tree.querySelectorAll('parsererror').length},null,2);document.querySelector('#phase').textContent='Complete';document.body.dataset.status='complete';return;
+  }
+  if(phase==='growth'&&elapsed>=model.settings.growthSeconds){renderer.update(model.maturity);phase='wind';started=now;previous=now;lastPaint=0;document.querySelector('#phase').textContent='Measuring wind for 10 seconds…';}
+  else if(phase!=='growth'&&now-lastPaint>=policy.windInterval){const before=performance.now();renderer.setWind(elapsed+(phase==='steady'?15:5));costs[phase].push(performance.now()-before);lastPaint=now;}
+  if(phase==='wind'&&now-started>=10000){phase='steady';started=now;previous=now;lastPaint=0;document.querySelector('#phase').textContent='Measuring settled wind for 10 seconds…';}
+  if(phase==='steady'&&now-started>=10000){
+    renderer.setWind(7);const scene=renderer.scene,canvases=[scene?.canvas,scene?.background,scene?.staticSurface,...(scene?.sprites?.values()||[])].map(c=>c?.canvas||c).filter(c=>typeof c?.width==='number');
+    for(const g of renderer.groups.values()){if(g.sprite)canvases.push(g.sprite);for(const layer of g.spriteLayers||[])canvases.push(layer.canvas);}
+    const result={engine,seed,policy:policy.name,side,dpr:devicePixelRatio,viewport:[innerWidth,innerHeight],surfaceRatio:scene?.dpr,canvas:scene?.canvas?[scene.canvas.width,scene.canvas.height]:null,stationaryVector:scene?.background?.tagName==='svg',composeMs:+composeMs.toFixed(2),workerMs,workerModelMatches,mountMs:+mountMs.toFixed(2),growth: summarize(costs.growth),wind:summarize(costs.wind),steady:summarize(costs.steady),growthFrames:summarize(gaps.growth),windFrames:summarize(gaps.wind),steadyFrames:summarize(gaps.steady),longTasks:longTasks.length,canvasActive:!!scene?.active,missingCaches:[...renderer.groups.values()].filter(g=>g.node.kind!=='branch'&&!g.sprite&&!g.spriteLayers).map(g=>g.node.id),estimatedTextureMiB:+(canvases.reduce((s,c)=>s+c.width*c.height*4,0)/1048576).toFixed(2),domElements:svg.querySelectorAll('*').length,stats:scene?.stats||null};
+    document.querySelector('#metrics').textContent=JSON.stringify(result,null,2);document.querySelector('#phase').textContent='Complete';document.body.dataset.status='complete';
+    inspection();
+    const download=document.createElement('button');download.textContent='Download report';download.onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'})),link=document.createElement('a');link.href=url;link.download='mithila-device-'+seed+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),5000);};document.querySelector('section').append(download);
+    return;
+  }
+  requestAnimationFrame(tick);
+}
+requestAnimationFrame(tick);
+}
+</script></html>

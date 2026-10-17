@@ -1,0 +1,71 @@
+{
+  "engine": "./pre-pi4/",
+  "seed": "MITHILA-005",
+  "policy": "pi4",
+  "side": 880,
+  "dpr": 1.0000000298023224,
+  "viewport": [
+    1920,
+    1080
+  ],
+  "surfaceRatio": 1.0000000298023224,
+  "canvas": [
+    880,
+    880
+  ],
+  "stationaryVector": false,
+  "composeMs": 2663.8,
+  "workerMs": null,
+  "workerModelMatches": null,
+  "mountMs": 35.3,
+  "growth": {
+    "samples": 113,
+    "meanMs": 28.03,
+    "p95Ms": 109.3,
+    "maxMs": 169.1
+  },
+  "wind": {
+    "samples": 30,
+    "meanMs": 15.25,
+    "p95Ms": 20.1,
+    "maxMs": 29.1
+  },
+  "steady": {
+    "samples": 57,
+    "meanMs": 12.97,
+    "p95Ms": 18.1,
+    "maxMs": 18.5
+  },
+  "growthFrames": {
+    "samples": 512,
+    "meanMs": 20.54,
+    "p95Ms": 115,
+    "maxMs": 345.4
+  },
+  "windFrames": {
+    "samples": 31,
+    "meanMs": 324.66,
+    "p95Ms": 599.8,
+    "maxMs": 745.3
+  },
+  "steadyFrames": {
+    "samples": 66,
+    "meanMs": 152.03,
+    "p95Ms": 284.8,
+    "maxMs": 339.4
+  },
+  "longTasks": 31,
+  "canvasActive": true,
+  "missingCaches": [
+    "m2",
+    "m3",
+    "m4",
+    "m291",
+    "m288",
+    "m289",
+    "m290"
+  ],
+  "estimatedTextureMiB": 48.28,
+  "domElements": 7548,
+  "stats": null
+}

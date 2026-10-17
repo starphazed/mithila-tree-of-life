@@ -1,0 +1,1685 @@
+{
+  "version": 4,
+  "records": [
+    {
+      "seed": "MITHILA-001",
+      "recipe": "Rising grove",
+      "palette": "Forest copper",
+      "mode": "limited",
+      "dark": true,
+      "contrast": 9.08,
+      "motifs": 219,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.3027074464038015,
+          "height": 47.207791205029935,
+          "spread": 49.83266487378627,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 12.019467473728582,
+          "tilt": 2.017635358031839,
+          "pointed": false,
+          "pattern": 2,
+          "bounds": [
+            -44.07448918194113,
+            -55.207791205029935,
+            44.07448918194113,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": false,
+          "spread": 131.6163023407571,
+          "height": 65.03787340596318,
+          "feathers": 16,
+          "bodyWidth": 0.9924146620277314,
+          "neckHeight": 54.68338682781905,
+          "headX": 21.77772440109402,
+          "neckCurl": 1.3697380260564387,
+          "plumeWidth": 5.66306465358939,
+          "featherStyle": 1,
+          "pattern": 1,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 94.09527555853128,
+          "depth": 21.289256704971194,
+          "tailLength": 30.412768953945488,
+          "tailType": 1,
+          "finType": 2,
+          "pattern": 2,
+          "eye": 2.543252141214907,
+          "barbels": false,
+          "finHeight": 15.330703807761893,
+          "bounds": [
+            -58.75240155719221,
+            -55.289256704971194,
+            76.46096849016845,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-002",
+      "recipe": "Rising grove",
+      "palette": "Terracotta dusk",
+      "mode": "rich",
+      "dark": true,
+      "contrast": 5.06,
+      "motifs": 190,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.6701595420390367,
+          "height": 47.72291084541939,
+          "spread": 67.83781755991279,
+          "petals": 9,
+          "layers": 3,
+          "petalWidth": 11.602958796778694,
+          "tilt": 3.3794254227541387,
+          "pointed": true,
+          "pattern": 1,
+          "bounds": [
+            -52.19713138285776,
+            -55.72291084541939,
+            52.19713138285776,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": true,
+          "spread": 18.212597069097683,
+          "height": 105.84038627333939,
+          "feathers": 5,
+          "bodyWidth": 0.8509997868398204,
+          "neckHeight": 46.17484265379608,
+          "headX": 25.205261633731425,
+          "neckCurl": 0.9808742726920172,
+          "plumeWidth": 5.069628041470423,
+          "featherStyle": 0,
+          "pattern": 0,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 95.2926424369216,
+          "depth": 23.539099549874663,
+          "tailLength": 21.008844767697155,
+          "tailType": 1,
+          "finType": 2,
+          "pattern": 1,
+          "eye": 3.0610769714228807,
+          "barbels": true,
+          "finHeight": 13.829314179718494,
+          "bounds": [
+            -59.41095334030688,
+            -57.53909954987466,
+            76.97583624787629,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-003",
+      "recipe": "Wandering boughs",
+      "palette": "Forest copper",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 9.06,
+      "motifs": 171,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.9603611180745065,
+          "height": 61.65943001862615,
+          "spread": 82.05769478565082,
+          "petals": 5,
+          "layers": 3,
+          "petalWidth": 14.084184920415282,
+          "tilt": -0.7509444621391594,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -69.06797482065407,
+            -69.65943001862615,
+            69.06797482065407,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": false,
+          "spread": 86.56725308089517,
+          "height": 100.70390219381079,
+          "feathers": 9,
+          "bodyWidth": 0.8884027557168156,
+          "neckHeight": 60.755439575295895,
+          "headX": 22.483928764238954,
+          "neckCurl": 1.1303348647430538,
+          "plumeWidth": 6.98785985102877,
+          "featherStyle": 2,
+          "pattern": 2,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 87.80517357587814,
+          "depth": 24.306114718317986,
+          "tailLength": 18.2498283656314,
+          "tailType": 1,
+          "finType": 1,
+          "pattern": 2,
+          "eye": 3.2941537221893666,
+          "barbels": true,
+          "finHeight": 12.508744494756684,
+          "bounds": [
+            -55.292845466732985,
+            -58.306114718317986,
+            73.75622463762761,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-004",
+      "recipe": "Spreading garden",
+      "palette": "Madder on rose",
+      "mode": "limited",
+      "dark": false,
+      "contrast": 8,
+      "motifs": 223,
+      "branches": 100,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.5358228950761259,
+          "height": 43.259106774115935,
+          "spread": 61.25532185873017,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 11.072311191586778,
+          "tilt": 6.9362529227510095,
+          "pointed": true,
+          "pattern": 0,
+          "bounds": [
+            -45.92834882318842,
+            -51.259106774115935,
+            45.92834882318842,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 77.62681794608943,
+          "height": 75.16218261024915,
+          "feathers": 15,
+          "bodyWidth": 0.9463412637426517,
+          "neckHeight": 43.56921505648643,
+          "headX": 22.407817227765918,
+          "neckCurl": 0.8489107164321467,
+          "plumeWidth": 6.943383577582427,
+          "featherStyle": 2,
+          "pattern": 0,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 73.0402626991272,
+          "depth": 20.91771002393216,
+          "tailLength": 25.292920134728774,
+          "tailType": 1,
+          "finType": 0,
+          "pattern": 2,
+          "eye": 2.369855655264109,
+          "barbels": false,
+          "finHeight": 11.83113862015307,
+          "bounds": [
+            -47.17214448451996,
+            -54.91771002393216,
+            67.4073129606247,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-005",
+      "recipe": "Unfolding fan",
+      "palette": "Charcoal festival",
+      "mode": "rich",
+      "dark": true,
+      "contrast": 12.27,
+      "motifs": 296,
+      "branches": 111,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.5479575727693737,
+          "height": 62.52283900277689,
+          "spread": 61.84992106569931,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 11.160290863597766,
+          "tilt": -6.709864872973412,
+          "pointed": false,
+          "pattern": 0,
+          "bounds": [
+            -63.12731528883406,
+            -70.52283900277689,
+            63.12731528883406,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 112.3148183862213,
+          "height": 90.42939459369518,
+          "feathers": 16,
+          "bodyWidth": 1.0258125405479221,
+          "neckHeight": 41.65936075267382,
+          "headX": 20.05944727640599,
+          "neckCurl": 1.3161065319320187,
+          "plumeWidth": 5.7329264375614,
+          "featherStyle": 0,
+          "pattern": 1,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 67.38418769836426,
+          "depth": 17.374773391522467,
+          "tailLength": 20.140210894169286,
+          "tailType": 2,
+          "finType": 1,
+          "pattern": 2,
+          "eye": 2.6038034880533814,
+          "barbels": false,
+          "finHeight": 10.900795199442655,
+          "bounds": [
+            -44.06130323410034,
+            -51.37477339152247,
+            64.97520071029663,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-006",
+      "recipe": "Candelabra",
+      "palette": "Madder on rose",
+      "mode": "rich",
+      "dark": false,
+      "contrast": 8.15,
+      "motifs": 196,
+      "branches": 97,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.29658218894153837,
+          "height": 48.49697572737932,
+          "spread": 49.53252725813538,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 12.099395198747516,
+          "tilt": -2.486560656223446,
+          "pointed": true,
+          "pattern": 1,
+          "bounds": [
+            -44.89526438752652,
+            -56.49697572737932,
+            44.89526438752652,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": false,
+          "spread": 137.63403932610527,
+          "height": 99.55052435887046,
+          "feathers": 12,
+          "bodyWidth": 1.1314555036090312,
+          "neckHeight": 47.06582308327779,
+          "headX": 35.126843984471634,
+          "neckCurl": 0.7356057738885283,
+          "plumeWidth": 6.857211432862096,
+          "featherStyle": 0,
+          "pattern": 0,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 68.28307887166739,
+          "depth": 22.669947896152735,
+          "tailLength": 30.124916691100225,
+          "tailType": 2,
+          "finType": 1,
+          "pattern": 1,
+          "eye": 2.91204275554046,
+          "barbels": false,
+          "finHeight": 11.688579127192497,
+          "bounds": [
+            -44.555693379417065,
+            -56.669947896152735,
+            65.36172391481698,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-007",
+      "recipe": "Forked crown",
+      "palette": "Petrol and coral",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 9.18,
+      "motifs": 174,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.3986369113251567,
+          "height": 56.54452296672389,
+          "spread": 54.53320865493268,
+          "petals": 5,
+          "layers": 2,
+          "petalWidth": 10.05662350426428,
+          "tilt": 4.021942896768451,
+          "pointed": true,
+          "pattern": 0,
+          "bounds": [
+            -54.052797401401705,
+            -64.54452296672389,
+            54.052797401401705,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": true,
+          "spread": 23.40034923236817,
+          "height": 102.03804386756383,
+          "feathers": 6,
+          "bodyWidth": 1.0418442006642,
+          "neckHeight": 61.87282851245254,
+          "headX": 21.992801938205957,
+          "neckCurl": 0.9468858261592685,
+          "plumeWidth": 6.714473699568771,
+          "featherStyle": 0,
+          "pattern": 0,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 90.19917006790638,
+          "depth": 18.484139993786812,
+          "tailLength": 20.71295362804085,
+          "tailType": 0,
+          "finType": 0,
+          "pattern": 3,
+          "eye": 2.632124621514231,
+          "barbels": false,
+          "finHeight": 15.622151361079887,
+          "bounds": [
+            -56.609543537348515,
+            -52.48413999378681,
+            74.78564312919974,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-008",
+      "recipe": "Wandering boughs",
+      "palette": "Saffron paper",
+      "mode": "rich",
+      "dark": false,
+      "contrast": 7.57,
+      "motifs": 190,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.8309622105397284,
+          "height": 58.183656339300796,
+          "spread": 75.7171483164467,
+          "petals": 5,
+          "layers": 2,
+          "petalWidth": 13.575778763042763,
+          "tilt": -7.829146604519337,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -64.38517703220816,
+            -66.1836563393008,
+            64.38517703220816,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 123.56024748110212,
+          "height": 99.91069654142484,
+          "feathers": 10,
+          "bodyWidth": 0.8580142141273245,
+          "neckHeight": 43.28657395392656,
+          "headX": 25.353479464538395,
+          "neckCurl": 0.9733570049284026,
+          "plumeWidth": 6.195823054434731,
+          "featherStyle": 0,
+          "pattern": 2,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 68.26825974136591,
+          "depth": 24.88758842740208,
+          "tailLength": 28.11256931629032,
+          "tailType": 2,
+          "finType": 0,
+          "pattern": 3,
+          "eye": 2.791712084598839,
+          "barbels": false,
+          "finHeight": 17.231322897132486,
+          "bounds": [
+            -44.54754285775125,
+            -58.88758842740208,
+            65.35535168878734,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-009",
+      "recipe": "Forked crown",
+      "palette": "Terracotta dusk",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 5.28,
+      "motifs": 197,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.7153717726655304,
+          "height": 48.38334947521798,
+          "spread": 70.05321686061099,
+          "petals": 7,
+          "layers": 2,
+          "petalWidth": 10.15512425149791,
+          "tilt": 9.813375586643815,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -53.48082687027503,
+            -56.38334947521798,
+            53.48082687027503,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": false,
+          "spread": 67.09068587445654,
+          "height": 103.45067337644286,
+          "feathers": 14,
+          "bodyWidth": 0.9027683719363995,
+          "neckHeight": 47.442165728192776,
+          "headX": 38.63444112823345,
+          "neckCurl": 1.3580764790065585,
+          "plumeWidth": 7.120478333486244,
+          "featherStyle": 2,
+          "pattern": 1,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 79.53198931366205,
+          "depth": 21.716896601952612,
+          "tailLength": 20.578199974494055,
+          "tailType": 2,
+          "finType": 1,
+          "pattern": 2,
+          "eye": 2.7642006770707663,
+          "barbels": false,
+          "finHeight": 15.1006451100111,
+          "bounds": [
+            -50.742594122514134,
+            -55.71689660195261,
+            70.19875540487467,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-010",
+      "recipe": "Rising grove",
+      "palette": "Charcoal festival",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 12.23,
+      "motifs": 207,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.6931300432421268,
+          "height": 55.74774266895838,
+          "spread": 68.96337211886421,
+          "petals": 11,
+          "layers": 3,
+          "petalWidth": 8.488144849427044,
+          "tilt": 4.345001787878573,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -60.03221913431982,
+            -63.74774266895838,
+            60.03221913431982,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 141.50880388356745,
+          "height": 85.31219737790525,
+          "feathers": 13,
+          "bodyWidth": 0.9798056320939212,
+          "neckHeight": 44.012154751457274,
+          "headX": 28.10380035545677,
+          "neckCurl": 1.20572320073843,
+          "plumeWidth": 6.054056385997683,
+          "featherStyle": 1,
+          "pattern": 0,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 81.2472575455904,
+          "depth": 15.436068044044077,
+          "tailLength": 24.409371830290183,
+          "tailType": 2,
+          "finType": 0,
+          "pattern": 0,
+          "eye": 3.280438364855945,
+          "barbels": false,
+          "finHeight": 15.183524121763185,
+          "bounds": [
+            -51.685991650074726,
+            -49.43606804404408,
+            70.93632074460388,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-011",
+      "recipe": "Wandering boughs",
+      "palette": "Madder on rose",
+      "mode": "rich",
+      "dark": false,
+      "contrast": 8.14,
+      "motifs": 211,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.950710730701685,
+          "height": 45.09653771365993,
+          "spread": 81.58482580438258,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 14.378264871891588,
+          "tilt": -1.9506280673667789,
+          "pointed": false,
+          "pattern": 2,
+          "bounds": [
+            -52.61101078690788,
+            -53.09653771365993,
+            52.61101078690788,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 88.82237303513102,
+          "height": 68.83188157901168,
+          "feathers": 14,
+          "bodyWidth": 0.8481496852310374,
+          "neckHeight": 39.32450836431235,
+          "headX": 20.889459691941738,
+          "neckCurl": 0.9682336458703502,
+          "plumeWidth": 5.89018877313938,
+          "featherStyle": 2,
+          "pattern": 0,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 74.61918222904205,
+          "depth": 16.23453118558973,
+          "tailLength": 29.432266540825367,
+          "tailType": 1,
+          "finType": 1,
+          "pattern": 1,
+          "eye": 2.9706840409897266,
+          "barbels": false,
+          "finHeight": 11.844676284352317,
+          "bounds": [
+            -48.040550225973135,
+            -50.23453118558973,
+            68.08624835848809,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-012",
+      "recipe": "Unfolding fan",
+      "palette": "Terracotta dusk",
+      "mode": "rich",
+      "dark": true,
+      "contrast": 5,
+      "motifs": 276,
+      "branches": 111,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.5743963388726115,
+          "height": 54.694533618632704,
+          "spread": 63.145420604757966,
+          "petals": 11,
+          "layers": 2,
+          "petalWidth": 9.495165548287332,
+          "tilt": -0.6262222290970385,
+          "pointed": true,
+          "pattern": 1,
+          "bounds": [
+            -56.79605152380505,
+            -62.694533618632704,
+            56.79605152380505,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": false,
+          "spread": 109.38298889948055,
+          "height": 78.32043616217561,
+          "feathers": 16,
+          "bodyWidth": 1.1285644830623642,
+          "neckHeight": 58.01501002628356,
+          "headX": 25.54108760226518,
+          "neckCurl": 0.9738457405008375,
+          "plumeWidth": 7.303433137247339,
+          "featherStyle": 1,
+          "pattern": 0,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 93.75551356375217,
+          "depth": 15.355893441475928,
+          "tailLength": 24.43935209256597,
+          "tailType": 0,
+          "finType": 1,
+          "pattern": 1,
+          "eye": 2.369403294287622,
+          "barbels": false,
+          "finHeight": 10.930171465035528,
+          "bounds": [
+            -58.5655324600637,
+            -49.35589344147593,
+            76.31487083241343,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-013",
+      "recipe": "Forked crown",
+      "palette": "Petrol and coral",
+      "mode": "rich",
+      "dark": true,
+      "contrast": 8.93,
+      "motifs": 186,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.5850919824279845,
+          "height": 55.777790455613285,
+          "spread": 63.66950713897124,
+          "petals": 5,
+          "layers": 2,
+          "petalWidth": 10.539292828878388,
+          "tilt": 3.709798603784293,
+          "pointed": false,
+          "pattern": 0,
+          "bounds": [
+            -57.99087261723761,
+            -63.777790455613285,
+            57.99087261723761,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": false,
+          "spread": 96.82172269094735,
+          "height": 76.79622072726488,
+          "feathers": 11,
+          "bodyWidth": 0.9296410080813802,
+          "neckHeight": 53.22007643431425,
+          "headX": 22.943419873714447,
+          "neckCurl": 0.7122702728258445,
+          "plumeWidth": 4.435655197664164,
+          "featherStyle": 0,
+          "pattern": 1,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 93.76461733132601,
+          "depth": 21.643940097652376,
+          "tailLength": 19.22270545340143,
+          "tailType": 1,
+          "finType": 1,
+          "pattern": 2,
+          "eye": 2.6955381463281807,
+          "barbels": false,
+          "finHeight": 12.622592451050878,
+          "bounds": [
+            -58.57053953222931,
+            -55.643940097652376,
+            76.31878545247018,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-014",
+      "recipe": "Forked crown",
+      "palette": "Midnight marigold",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 12.26,
+      "motifs": 175,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.3400113964825869,
+          "height": 46.942550032399595,
+          "spread": 51.66055842764676,
+          "petals": 5,
+          "layers": 3,
+          "petalWidth": 14.741706229513511,
+          "tilt": -1.6796998460777104,
+          "pointed": false,
+          "pattern": 1,
+          "bounds": [
+            -44.81936742339127,
+            -54.942550032399595,
+            44.81936742339127,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": false,
+          "spread": 102.94280679756775,
+          "height": 97.27617791318335,
+          "feathers": 14,
+          "bodyWidth": 0.8772112927236594,
+          "neckHeight": 48.29917901055887,
+          "headX": 35.86257139942609,
+          "neckCurl": 1.1113901413278653,
+          "plumeWidth": 5.805023331241682,
+          "featherStyle": 0,
+          "pattern": 0,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 82.37310765683651,
+          "depth": 13.790499741211534,
+          "tailLength": 26.796692135278136,
+          "tailType": 2,
+          "finType": 1,
+          "pattern": 1,
+          "eye": 3.34348209798336,
+          "barbels": true,
+          "finHeight": 16.93726526107639,
+          "bounds": [
+            -52.305209211260085,
+            -47.79049974121153,
+            71.42043629243969,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-015",
+      "recipe": "Unfolding fan",
+      "palette": "Vermilion vellum",
+      "mode": "rich",
+      "dark": false,
+      "contrast": 6.11,
+      "motifs": 243,
+      "branches": 110,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.8779624191299081,
+          "height": 49.06195718422532,
+          "spread": 78.02015853736549,
+          "petals": 7,
+          "layers": 2,
+          "petalWidth": 11.907690277090296,
+          "tilt": 2.9703663759864867,
+          "pointed": true,
+          "pattern": 1,
+          "bounds": [
+            -55.993421626883126,
+            -57.06195718422532,
+            55.993421626883126,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": false,
+          "spread": 86.46150680421852,
+          "height": 66.47853408986703,
+          "feathers": 13,
+          "bodyWidth": 0.8549239839613437,
+          "neckHeight": 51.30364564154297,
+          "headX": 32.379300319822505,
+          "neckCurl": 1.1900732169393449,
+          "plumeWidth": 5.022190290899016,
+          "featherStyle": 2,
+          "pattern": 1,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 89.50055412203074,
+          "depth": 17.28419824130833,
+          "tailLength": 21.39286012784578,
+          "tailType": 0,
+          "finType": 0,
+          "pattern": 2,
+          "eye": 2.729210030287504,
+          "barbels": true,
+          "finHeight": 11.08576754364185,
+          "bounds": [
+            -56.22530476711691,
+            -51.28419824130833,
+            74.48523827247323,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-016",
+      "recipe": "Wandering boughs",
+      "palette": "Silver on soot",
+      "mode": "rich",
+      "dark": true,
+      "contrast": 12.38,
+      "motifs": 208,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.8567373314127326,
+          "height": 59.2633464592509,
+          "spread": 76.98012923922388,
+          "petals": 5,
+          "layers": 2,
+          "petalWidth": 10.597413738491014,
+          "tilt": 1.3009782824665308,
+          "pointed": false,
+          "pattern": 1,
+          "bounds": [
+            -65.7398038073577,
+            -67.2633464592509,
+            65.7398038073577,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": true,
+          "spread": 32.246128894155845,
+          "height": 96.36893804580905,
+          "feathers": 6,
+          "bodyWidth": 1.149319338852074,
+          "neckHeight": 43.02135785203427,
+          "headX": 40.27857746020891,
+          "neckCurl": 0.798882432677783,
+          "plumeWidth": 6.531888065277599,
+          "featherStyle": 2,
+          "pattern": 2,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 91.91319493204355,
+          "depth": 23.060777100734413,
+          "tailLength": 28.738156677689403,
+          "tailType": 1,
+          "finType": 0,
+          "pattern": 1,
+          "eye": 2.640529056638479,
+          "barbels": false,
+          "finHeight": 16.993091070558876,
+          "bounds": [
+            -57.55225721262396,
+            -57.06077710073441,
+            75.52267382077872,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-017",
+      "recipe": "Spreading garden",
+      "palette": "Silver on soot",
+      "mode": "limited",
+      "dark": true,
+      "contrast": 12.23,
+      "motifs": 206,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.6394977152906358,
+          "height": 48.0614210430067,
+          "spread": 66.33538804924115,
+          "petals": 5,
+          "layers": 3,
+          "petalWidth": 9.566697052447125,
+          "tilt": -8.003898007329553,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -52.01996867944475,
+            -56.0614210430067,
+            52.01996867944475,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": true,
+          "spread": 18.008650538045913,
+          "height": 112.27029023761861,
+          "feathers": 7,
+          "bodyWidth": 1.135796577455476,
+          "neckHeight": 60.943836447782815,
+          "headX": 24.05845917761326,
+          "neckCurl": 0.7998001305386424,
+          "plumeWidth": 5.518741704244166,
+          "featherStyle": 0,
+          "pattern": 0,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 69.8168084025383,
+          "depth": 20.73603328410536,
+          "tailLength": 18.823563441401348,
+          "tailType": 1,
+          "finType": 1,
+          "pattern": 2,
+          "eye": 3.068030317220837,
+          "barbels": false,
+          "finHeight": 13.18107269355096,
+          "bounds": [
+            -45.399244621396065,
+            -54.73603328410536,
+            66.02122761309147,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-018",
+      "recipe": "Wandering boughs",
+      "palette": "Saffron paper",
+      "mode": "limited",
+      "dark": false,
+      "contrast": 7.46,
+      "motifs": 228,
+      "branches": 96,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.30020548468455677,
+          "height": 63.24623818998225,
+          "spread": 49.71006874954328,
+          "petals": 7,
+          "layers": 2,
+          "petalWidth": 9.953473117901012,
+          "tilt": 3.21811961568892,
+          "pointed": false,
+          "pattern": 1,
+          "bounds": [
+            -56.24309080155692,
+            -71.24623818998225,
+            56.24309080155692,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": true,
+          "spread": 20.921335720689967,
+          "height": 89.22249175002798,
+          "feathers": 5,
+          "bodyWidth": 0.9531273843324742,
+          "neckHeight": 53.33661849517375,
+          "headX": 30.724281263072044,
+          "neckCurl": 0.7359534866642207,
+          "plumeWidth": 5.603994844597764,
+          "featherStyle": 1,
+          "pattern": 1,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 66.75140321999788,
+          "depth": 20.992427677847445,
+          "tailLength": 21.95428349240683,
+          "tailType": 2,
+          "finType": 2,
+          "pattern": 2,
+          "eye": 3.458400126453489,
+          "barbels": false,
+          "finHeight": 12.291332362219691,
+          "bounds": [
+            -43.71327177099884,
+            -54.992427677847445,
+            64.70310338459909,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-019",
+      "recipe": "Unfolding fan",
+      "palette": "Forest copper",
+      "mode": "limited",
+      "dark": true,
+      "contrast": 9.39,
+      "motifs": 274,
+      "branches": 109,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.4471893330477178,
+          "height": 63.01181977591477,
+          "spread": 56.91227731933817,
+          "petals": 11,
+          "layers": 3,
+          "petalWidth": 12.185517436359078,
+          "tilt": 9.991569050122052,
+          "pointed": true,
+          "pattern": 1,
+          "bounds": [
+            -60.79355313350508,
+            -71.01181977591477,
+            60.79355313350508,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": true,
+          "spread": 33.66448920755647,
+          "height": 99.19921507686377,
+          "feathers": 7,
+          "bodyWidth": 0.8532967186486348,
+          "neckHeight": 55.52494216756895,
+          "headX": 30.043123650131747,
+          "neckCurl": 1.262117818975821,
+          "plumeWidth": 5.5009174310369415,
+          "featherStyle": 0,
+          "pattern": 2,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 88.36638829112053,
+          "depth": 21.998609520494938,
+          "tailLength": 21.62751573137939,
+          "tailType": 0,
+          "finType": 1,
+          "pattern": 1,
+          "eye": 2.871651452127844,
+          "barbels": false,
+          "finHeight": 16.611408417345956,
+          "bounds": [
+            -55.601513560116295,
+            -55.99860952049494,
+            73.99754696518183,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-020",
+      "recipe": "Rising grove",
+      "palette": "Aubergine gold",
+      "mode": "limited",
+      "dark": true,
+      "contrast": 10.53,
+      "motifs": 192,
+      "branches": 95,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.2961504480056465,
+          "height": 58.693656937684864,
+          "spread": 49.511371952276676,
+          "petals": 7,
+          "layers": 2,
+          "petalWidth": 11.201576157705858,
+          "tilt": 0.23932805145159364,
+          "pointed": false,
+          "pattern": 1,
+          "bounds": [
+            -52.63857167938904,
+            -66.69365693768486,
+            52.63857167938904,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": true,
+          "spread": 22.28174638026394,
+          "height": 97.13037887495011,
+          "feathers": 5,
+          "bodyWidth": 1.1724736695713363,
+          "neckHeight": 44.208156200824305,
+          "headX": 22.0199532834813,
+          "neckCurl": 0.9542572706704959,
+          "plumeWidth": 6.429679080029018,
+          "featherStyle": 2,
+          "pattern": 1,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 94.33684116601944,
+          "depth": 13.728644698858261,
+          "tailLength": 29.853218072792515,
+          "tailType": 2,
+          "finType": 1,
+          "pattern": 0,
+          "eye": 2.5661279070191085,
+          "barbels": false,
+          "finHeight": 16.69422351079993,
+          "bounds": [
+            -58.885262641310696,
+            -47.72864469885826,
+            76.56484170138836,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-021",
+      "recipe": "Candelabra",
+      "palette": "Ochre and indigo",
+      "mode": "limited",
+      "dark": false,
+      "contrast": 5.79,
+      "motifs": 198,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.8136638240143657,
+          "height": 58.71898411819711,
+          "spread": 74.86952737670391,
+          "petals": 7,
+          "layers": 3,
+          "petalWidth": 8.341531889978796,
+          "tilt": 4.078681953717023,
+          "pointed": true,
+          "pattern": 0,
+          "bounds": [
+            -64.68342862268616,
+            -66.71898411819711,
+            64.68342862268616,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 72.38490710011683,
+          "height": 76.6836456975434,
+          "feathers": 10,
+          "bodyWidth": 1.058289039619267,
+          "neckHeight": 43.327475239988416,
+          "headX": 17.075409770011902,
+          "neckCurl": 1.0641916058957577,
+          "plumeWidth": 4.533767773746512,
+          "featherStyle": 1,
+          "pattern": 1,
+          "crest": 5,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 75.64821922779083,
+          "depth": 19.873660164885223,
+          "tailLength": 30.854357878211886,
+          "tailType": 0,
+          "finType": 0,
+          "pattern": 3,
+          "eye": 2.4491344075649977,
+          "barbels": false,
+          "finHeight": 13.510735317366198,
+          "bounds": [
+            -48.60652057528496,
+            -53.87366016488522,
+            68.52873426795006,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-022",
+      "recipe": "Rising grove",
+      "palette": "Silver on soot",
+      "mode": "monochrome",
+      "dark": true,
+      "contrast": 12.4,
+      "motifs": 221,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.8559050888940692,
+          "height": 54.79959508636966,
+          "spread": 76.93934935580938,
+          "petals": 5,
+          "layers": 2,
+          "petalWidth": 8.75989564624615,
+          "tilt": -7.878805792424828,
+          "pointed": true,
+          "pattern": 0,
+          "bounds": [
+            -61.38200607325567,
+            -62.79959508636966,
+            61.38200607325567,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 0,
+          "train": false,
+          "spread": 141.19528080243617,
+          "height": 94.40288679301739,
+          "feathers": 11,
+          "bodyWidth": 1.0248727561742998,
+          "neckHeight": 43.43979961355217,
+          "headX": 24.30085047893226,
+          "neckCurl": 0.9740528998663649,
+          "plumeWidth": 6.155514353141189,
+          "featherStyle": 2,
+          "pattern": 2,
+          "crest": 3,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 93.57706717401743,
+          "depth": 22.869567952118814,
+          "tailLength": 26.830293289851397,
+          "tailType": 2,
+          "finType": 0,
+          "pattern": 3,
+          "eye": 2.6494899554178115,
+          "barbels": false,
+          "finHeight": 15.249603536445647,
+          "bounds": [
+            -58.46738694570959,
+            -56.869567952118814,
+            76.23813888482749,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-023",
+      "recipe": "Unfolding fan",
+      "palette": "Ink on bone",
+      "mode": "limited",
+      "dark": false,
+      "contrast": 10.88,
+      "motifs": 241,
+      "branches": 108,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.9650539852306247,
+          "height": 44.516829184489325,
+          "spread": 82.28764527630061,
+          "petals": 7,
+          "layers": 2,
+          "petalWidth": 13.476195960771292,
+          "tilt": -8.862729093525559,
+          "pointed": true,
+          "pattern": 0,
+          "bounds": [
+            -52.11414264183616,
+            -52.516829184489325,
+            52.11414264183616,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 2,
+          "train": true,
+          "spread": 35.44843098614365,
+          "height": 104.45133302733302,
+          "feathers": 5,
+          "bodyWidth": 0.8310438800556584,
+          "neckHeight": 56.18515570368618,
+          "headX": 36.02348001510836,
+          "neckCurl": 0.7156944545917212,
+          "plumeWidth": 4.466653868835419,
+          "featherStyle": 1,
+          "pattern": 2,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 91.48840332776308,
+          "depth": 23.95732555259019,
+          "tailLength": 18.76046414207667,
+          "tailType": 0,
+          "finType": 2,
+          "pattern": 3,
+          "eye": 2.373904228210449,
+          "barbels": true,
+          "finHeight": 14.913416344905272,
+          "bounds": [
+            -57.3186218302697,
+            -57.95732555259019,
+            75.34001343093811,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "seed": "MITHILA-024",
+      "recipe": "Wandering boughs",
+      "palette": "Saffron paper",
+      "mode": "limited",
+      "dark": false,
+      "contrast": 7.32,
+      "motifs": 236,
+      "branches": 94,
+      "traits": {
+        "lotus": {
+          "kind": "lotus",
+          "openness": 0.6265175967663527,
+          "height": 46.66446192516014,
+          "spread": 65.69936224155128,
+          "petals": 9,
+          "layers": 2,
+          "petalWidth": 12.464502521790564,
+          "tilt": -7.184900890570134,
+          "pointed": true,
+          "pattern": 2,
+          "bounds": [
+            -50.52992974901593,
+            -54.66446192516014,
+            50.52992974901593,
+            21
+          ]
+        },
+        "peacock": {
+          "kind": "peacock",
+          "posture": 1,
+          "train": false,
+          "spread": 80.78895753109828,
+          "height": 68.39915547310375,
+          "feathers": 10,
+          "bodyWidth": 1.166942187848035,
+          "neckHeight": 64.27729350700974,
+          "headX": 21.0268058758229,
+          "neckCurl": 1.1629767138743772,
+          "plumeWidth": 6.735581666044891,
+          "featherStyle": 2,
+          "pattern": 1,
+          "crest": 4,
+          "bounds": [
+            -150,
+            -126,
+            65,
+            20
+          ]
+        },
+        "fish": {
+          "kind": "fish",
+          "body": 91.8469204083085,
+          "depth": 24.280541953630745,
+          "tailLength": 30.539545171661302,
+          "tailType": 2,
+          "finType": 0,
+          "pattern": 0,
+          "eye": 3.0747000043280424,
+          "barbels": true,
+          "finHeight": 15.112448734464124,
+          "bounds": [
+            -57.51580622456968,
+            -58.280541953630745,
+            75.49417577557266,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

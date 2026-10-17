@@ -1,0 +1,60 @@
+{
+  "engine": "../js/",
+  "seed": "MITHILA-007",
+  "policy": "pi4",
+  "side": 880,
+  "dpr": 1.0000000298023224,
+  "viewport": [
+    1920,
+    1096
+  ],
+  "composeMs": 53.2,
+  "workerMs": 76.8,
+  "workerModelMatches": true,
+  "mountMs": 13,
+  "growth": {
+    "samples": 221,
+    "meanMs": 4.42,
+    "p95Ms": 11.4,
+    "maxMs": 21.5
+  },
+  "wind": {
+    "samples": 183,
+    "meanMs": 2.59,
+    "p95Ms": 5.7,
+    "maxMs": 28.5
+  },
+  "steady": {
+    "samples": 184,
+    "meanMs": 2.47,
+    "p95Ms": 5.5,
+    "maxMs": 8.5
+  },
+  "growthFrames": {
+    "samples": 1565,
+    "meanMs": 8.07,
+    "p95Ms": 24.2,
+    "maxMs": 48.7
+  },
+  "windFrames": {
+    "samples": 1627,
+    "meanMs": 6.15,
+    "p95Ms": 6.2,
+    "maxMs": 42.3
+  },
+  "steadyFrames": {
+    "samples": 1633,
+    "meanMs": 6.13,
+    "p95Ms": 6.2,
+    "maxMs": 24.3
+  },
+  "longTasks": 1,
+  "canvasActive": true,
+  "missingCaches": [],
+  "estimatedTextureMiB": 16.32,
+  "domElements": 5481,
+  "stats": {
+    "frames": 369,
+    "geometryBuilds": 845
+  }
+}

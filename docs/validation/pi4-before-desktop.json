@@ -1,0 +1,65 @@
+{
+  "engine": "./pre-pi4/",
+  "seed": "MITHILA-005",
+  "policy": "pi4",
+  "side": 880,
+  "dpr": 1.0000000298023224,
+  "viewport": [
+    1920,
+    1096
+  ],
+  "composeMs": 806.9,
+  "workerMs": null,
+  "workerModelMatches": null,
+  "mountMs": 13.4,
+  "growth": {
+    "samples": 177,
+    "meanMs": 7.86,
+    "p95Ms": 21.7,
+    "maxMs": 30.9
+  },
+  "wind": {
+    "samples": 155,
+    "meanMs": 4.92,
+    "p95Ms": 5.8,
+    "maxMs": 38.7
+  },
+  "steady": {
+    "samples": 183,
+    "meanMs": 4.37,
+    "p95Ms": 5.7,
+    "maxMs": 7
+  },
+  "growthFrames": {
+    "samples": 1047,
+    "meanMs": 9.96,
+    "p95Ms": 36.4,
+    "maxMs": 91
+  },
+  "windFrames": {
+    "samples": 699,
+    "meanMs": 14.31,
+    "p95Ms": 60.6,
+    "maxMs": 272.7
+  },
+  "steadyFrames": {
+    "samples": 1033,
+    "meanMs": 9.68,
+    "p95Ms": 30.2,
+    "maxMs": 48.6
+  },
+  "longTasks": 2,
+  "canvasActive": true,
+  "missingCaches": [
+    "m2",
+    "m3",
+    "m4",
+    "m291",
+    "m288",
+    "m289",
+    "m290"
+  ],
+  "estimatedTextureMiB": 48.28,
+  "domElements": 7548,
+  "stats": null
+}

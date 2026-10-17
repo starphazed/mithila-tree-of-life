@@ -1,0 +1,66 @@
+{
+  "engine": "../js/",
+  "seed": "MITHILA-007",
+  "policy": "pi4",
+  "side": 880,
+  "dpr": 1.0000000298023224,
+  "viewport": [
+    1920,
+    1080
+  ],
+  "surfaceRatio": 1.0000000298023224,
+  "canvas": [
+    880,
+    880
+  ],
+  "stationaryVector": true,
+  "composeMs": 108.5,
+  "workerMs": 155.6,
+  "workerModelMatches": true,
+  "mountMs": 29.5,
+  "growth": {
+    "samples": 151,
+    "meanMs": 13.77,
+    "p95Ms": 45.7,
+    "maxMs": 97.9
+  },
+  "wind": {
+    "samples": 165,
+    "meanMs": 7.27,
+    "p95Ms": 13,
+    "maxMs": 21.3
+  },
+  "steady": {
+    "samples": 179,
+    "meanMs": 7.28,
+    "p95Ms": 13.5,
+    "maxMs": 20.4
+  },
+  "growthFrames": {
+    "samples": 733,
+    "meanMs": 17.23,
+    "p95Ms": 97,
+    "maxMs": 248.4
+  },
+  "windFrames": {
+    "samples": 731,
+    "meanMs": 13.7,
+    "p95Ms": 36.4,
+    "maxMs": 375.4
+  },
+  "steadyFrames": {
+    "samples": 815,
+    "meanMs": 12.27,
+    "p95Ms": 36.4,
+    "maxMs": 60.7
+  },
+  "longTasks": 23,
+  "canvasActive": true,
+  "missingCaches": [],
+  "estimatedTextureMiB": 10.78,
+  "domElements": 5481,
+  "stats": {
+    "frames": 354,
+    "geometryBuilds": 1574
+  }
+}

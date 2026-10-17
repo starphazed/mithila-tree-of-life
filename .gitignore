@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+.openai/
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
